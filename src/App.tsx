@@ -1,17 +1,20 @@
 
 import './App.css'
-import { Counter } from './components/Counter'
+import CounterAndProfile from './components/CounterAndProfile'
+import { TasksList } from './components/TasksList'
+
 
 
 
 function App() {
- 
-
-  
 
   return (
     <>
-      <Counter />
+
+     
+        <CounterAndProfile />
+        <TasksList />
+
 
     </>
   )
